@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "dom.js" defer></script>
+    <title>Document</title>
+
+    <style>
+       .counter{
+        border:1px solid lightblue;
+        padding:10px 30px;
+        border-radius: 10px;
+        width:fit-content;
+       }
+
+       h1,p{
+        text-align: center;
+       }
+
+    button{
+        border: none;
+        background-color: rgb(15, 9, 1);
+        color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 18px;
+
+    }
+    </style>
+</head>
+<body>
+    <!-- <h1 id ="heading">
+        Intro to Dom
+    </h1>
+    <button id ="btn">
+        Change style
+    </button> -->
+    <div class="counter">
+        <h1>Counter</h1>
+        <p id ="result">0</p>
+
+        <div class = "buttons">
+            <button onclick = "increment()">add</button>
+            <button onclick="substract()">subtract</button>
+            <button onclick="reset()">reset</button>
+
+        </div>
+    </div>
+</body>
+</html>
