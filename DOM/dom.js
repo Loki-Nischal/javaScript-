@@ -30,7 +30,7 @@ const increment =()=>{
 
 const substract =()=>{
     if(count===0){
-        alert("can not go below ZERO")
+        alert("can not go below ")
         return false//it doesnot let to go in - digit
     }
 
