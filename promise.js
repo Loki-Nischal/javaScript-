@@ -1,7 +1,7 @@
 const getPromise = () =>{
     return new Promise((resolve,reject)=>{
         console.log(" i am promise");
-        resolve("success")
+        resolve(success)
     })
 }
 
